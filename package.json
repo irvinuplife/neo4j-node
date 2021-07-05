@@ -1,0 +1,29 @@
+{
+  "name": "sample-neo4j-node",
+  "version": "1.0.0",
+  "description": "Neo4j sample for Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"sample-neo4j-node\" && exit 1"
+  },
+  "keywords": [
+    "neo4j", "node.js", "graph", "database", "driver", "rest", "api", "client"
+  ],
+  "author": "Irvin",
+  "license": "MIT",
+  "homepage": "https://github.com/irvinuplife/neo4j-node#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irvinuplife/neo4j-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/irvinuplife/neo4j-node/issues"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "neo4j": "2.0.0-RC2",
+    "request": "^2.27.0",
+    "cheerio": "^0.20.0",
+    "cypher-editor-support": "^1.1.8"
+  }
+}
